@@ -1,0 +1,63 @@
+h1 {
+    float: left;
+    display: inline;
+    margin: 0;
+   
+}
+
+.top-nav {
+    float: right;
+    display: inline;
+    padding: 1%;
+    
+}
+
+.about-me {
+    float: right;
+    display: inline;
+}
+
+form{
+    padding: 13%;
+}
+input, label, textarea {
+    display: inline;
+    float:left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    resize:vertical;
+    
+}
+
+button {
+    display: inline;
+    float:left;
+    text-align: center;
+    font-size: 12px;
+    padding: 1% 2%;    
+}
+
+#projects{
+    padding: 40px;
+}
+
+#project1, #project2 {
+    display: inline;
+    float: left;
+    margin: 20% 30% 20% 10%;
+}
+
+#project3, #project4 {
+    display: block;
+    float: left;
+    margin: 20% 30% 20% 10%;
+
+}
+#project5{
+    display: block;
+    float: left;
+    margin: 20% 30% 20% 10%;
+
+}

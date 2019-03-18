@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact Me</title>
+</head>
+<body>
+
+<!--Header and Navbar section-->    
+    <header>
+        <h1>Paula Villegas</h1>
+
+        <div class="top-nav">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+<!--Contact card-->
+
+    <div class="container">
+        <form action ="action_page.php">
+            <label for="name">Name</label>
+            <input type ="text" id="name" name="FullName" placeholder="John Smith">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="emailAddress" placeholder="example@gmail.com">
+
+            <label for="message"> Message</label>
+            <textarea id="message" name="Message" style="height:200px"></textarea>
+
+            <button type="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
